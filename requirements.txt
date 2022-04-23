@@ -1,0 +1,4 @@
+nextcord
+mysql-connector-python
+python-dotenv
+texttable
