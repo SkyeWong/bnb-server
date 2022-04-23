@@ -3,7 +3,6 @@ import nextcord
 import random
 from nextcord.ext import commands
 from nextcord import Embed, Interaction
-from keep_alive import keep_alive
 
 TOKEN = os.environ['DISCORD_TOKEN']
 
@@ -94,5 +93,4 @@ async def on_application_command_error(interaction: Interaction, error):
     else:
         raise error
 
-keep_alive()
 bot.run(TOKEN)
