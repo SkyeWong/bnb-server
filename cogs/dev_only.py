@@ -5,7 +5,6 @@ import main
 import random
 from nextcord.ext import commands
 from texttable import Texttable
-import db
 
 class dev_only(commands.Cog, name='Tests Commands'):
     """Never care about them. Simple tests for complicated concepts."""

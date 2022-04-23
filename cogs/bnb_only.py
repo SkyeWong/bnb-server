@@ -6,7 +6,6 @@ from datetime import datetime
 from nextcord.ext import commands
 from nextcord import Embed, Interaction
 from nextcord.ui import Button, View
-import database as db
 from typing import Optional
 
 class BnbOnly(commands.Cog, name="BNB Only"):
